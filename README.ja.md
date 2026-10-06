@@ -101,7 +101,6 @@ CharaDUO **1.0.0（ビルド 14）** は **2026-10-06** に App Store へ提出�
 - **ワードバンク**はビルド時にスプレッドシートから生成した JSON（繁体字→簡体字変換と検証つき）を同梱し、メモリに読み込みます。
 - モジュール化された **Swift パッケージ**（`Core`、`Content`、`ContentPipeline`、`Posture`、`Capture`、`Design`）に 140 件のユニットテスト、起動引数で動く UI テストを用意。
 
-
 ```mermaid
 flowchart LR
   Main["Main scene<br/>describer UI"] --> Engine

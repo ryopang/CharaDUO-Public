@@ -101,7 +101,6 @@ CharaDUO **1.0.0（build 14）** 已于 **2026-10-06** 提交 App Store，正在
 - **词库**在构建时由电子表格转成内置 JSON（含繁→简转换与校验），载入内存使用。
 - 模块化 **Swift 包**（`Core`、`Content`、`ContentPipeline`、`Posture`、`Capture`、`Design`），含 140 个单元测试，以及由启动参数驱动的 UI 测试。
 
-
 ```mermaid
 flowchart LR
   Main["Main scene<br/>describer UI"] --> Engine

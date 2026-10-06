@@ -129,7 +129,6 @@ A native app with no third-party dependencies.
 - Modular **Swift packages** (`Core`, `Content`, `ContentPipeline`, `Posture`,
   `Capture`, `Design`) with 140 unit tests, plus a UI suite driven by launch flags.
 
-
 ```mermaid
 flowchart LR
   Main["Main scene<br/>describer UI"] --> Engine
