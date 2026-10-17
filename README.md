@@ -78,9 +78,11 @@ moments, replayable at 1×, 2× or 3× — chipmunk voices included — and sava
   Japan-focused ones for Japanese players (a 70 / 30 regional deck).
 - ⏱️ **A countdown you can read at a glance** — big descending digits on a
   green → amber → red background.
+- 🎵 **Music and sound, your way** — a theme on the menus (it pauses when a game starts and steps aside if you're already playing your own music), soft tap sounds, and the round tick. Each has its own switch in Settings, and all follow your silent switch.
+- 🔠 **A word you can read across the room** — always centred on the describer's screen; long words shrink to fit instead of breaking mid-word, and two- or three-line titles sit snug.
 - 🎛️ **Quick Play or Custom Game** — pick teams, rounds, categories, round
   length (30–180 s), word language and skip penalty.
-- 🎬 **Reaction Reel** *(iPhone Duo)* — highlights of your guessers, export to Photos whenever you like.
+- 🎬 **Reaction Reel** *(iPhone Duo)* — highlights of your guessers, export to Photos whenever you like. If the camera ends up off after the first-run tips, a friendly prompt offers to turn it on.
 - 🔒 **Private by design** — no accounts, no ads, no analytics. Video and audio
   never leave the phone; unsaved clips are deleted when the match ends.
 - ♿ **Accessible** — Dynamic Type, 44 pt tap targets, VoiceOver labels, and a
@@ -104,7 +106,7 @@ Custom Game can also play the words in a different language from the interface.
 
 ## Status
 
-CharaDUO **1.0.0 (build 14)** was submitted to the App Store on **2026-10-06** and is waiting for review — it is the first release. Everything before 1.0.0 was pre-release development (`v0.x`).
+CharaDUO **1.0.0** was submitted to the App Store on **2026-10-06** and is in review — it is the first release. An updated build with menu music, tap sounds and layout polish is being prepared. Everything before 1.0.0 was pre-release development (`v0.x`).
 
 ## Under the hood
 
