@@ -78,8 +78,8 @@ moments, replayable at 1×, 2× or 3× — chipmunk voices included — and sava
   Japan-focused ones for Japanese players (a 70 / 30 regional deck).
 - ⏱️ **A countdown you can read at a glance** — big descending digits on a
   green → amber → red background.
-- 🎵 **Music and sound, your way** — a theme on the menus (it pauses when a game starts and steps aside if you're already playing your own music), soft tap sounds, and the round tick. Each has its own switch in Settings, and all follow your silent switch.
-- 🔠 **A word you can read across the room** — always centred on the describer's screen; long words shrink to fit instead of breaking mid-word, and two- or three-line titles sit snug.
+- 🎵 **Music and sound, your way** — a theme on the menus (it pauses when a game starts and steps aside if you're already playing your own music), soft tap sounds on every button, and the round tick — effects follow your volume buttons. Each has its own switch in Settings, and all follow your silent switch.
+- 🔠 **A word you can read across the room** — always centred on the describer's screen; long words shrink to fit instead of breaking mid-word, and two- or three-line titles sit snug (a little more airy for Chinese and Japanese).
 - 🎛️ **Quick Play or Custom Game** — pick teams, rounds, categories, round
   length (30–180 s), word language and skip penalty.
 - 🎬 **Reaction Reel** *(iPhone Duo)* — highlights of your guessers, export to Photos whenever you like. If the camera ends up off after the first-run tips, a friendly prompt offers to turn it on.
