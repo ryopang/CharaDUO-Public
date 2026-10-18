@@ -71,7 +71,7 @@ moments, replayable at 1×, 2× or 3× — chipmunk voices included — and sava
 
 ## Features
 
-- 🎭 **10 categories, 1,394 words** — movies, TV shows, celebrities, superheroes,
+- 🎭 **10 categories, 1,000+ words** — movies, TV shows, celebrities, superheroes,
   animals, food, countries, sightseeing, sports and brands.
 - 🌏 **Five languages, one game** — the interface *and* the word bank, each
   written natively. Hong Kong words are drawn more often for Cantonese players,
