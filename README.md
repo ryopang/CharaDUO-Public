@@ -106,7 +106,7 @@ Custom Game can also play the words in a different language from the interface.
 
 ## Status
 
-CharaDUO **1.0.0** was submitted to the App Store on **2026-10-06** and is in review — it is the first release. An updated build with menu music, tap sounds and layout polish is being prepared. Everything before 1.0.0 was pre-release development (`v0.x`).
+CharaDUO **1.0.0** was the first release. Update **1.0.2** — menu music, tap sounds, layout polish, refreshed screenshots and in-app promo-code redemption — was submitted to the App Store on **2026-10-22** and is in review. Everything before 1.0.0 was pre-release development (`v0.x`).
 
 ## Under the hood
 
