@@ -42,7 +42,7 @@ splits itself across both halves:
 
 | 🧑‍🎤 Describer | 👀 Guessers |
 |---|---|
-| The upright inner half shows the **word** on a high-contrast card. The half lying on the table is one giant **Correct** and **Skip**. | The **outer display** faces the room: category, the countdown, one emoji per letter so they know how long the answer is, and the score. The word never appears. |
+| The upright inner half shows the **word** on a high-contrast card. The half lying on the table is one giant **Correct** and **Skip**. | The **outer display** faces the room: category, the countdown, one emoji per letter so they know how long the answer is, and the score. The word only appears once it's guessed: on **Correct** the emojis turn into the word for half a second, with a +1. |
 
 <div align="center">
 <img src="docs/assets/duo-en-home.jpg" height="300" alt="Home" />
@@ -76,8 +76,9 @@ moments, replayable at 1×, 2× or 3× — chipmunk voices included — and sava
 - 🌏 **Five languages, one game** — the interface *and* the word bank, each
   written natively. Hong Kong words are drawn more often for Cantonese players,
   Japan-focused ones for Japanese players (a 70 / 30 regional deck).
-- ⏱️ **A countdown you can read at a glance** — big descending digits on a
-  green → amber → red background.
+- ⏱️ **A countdown you can read at a glance** — every turn opens with
+  "Get ready, 3, 2, 1, Start!" on both screens, so nobody is caught off guard;
+  then big descending digits on a green → amber → red background.
 - 🎵 **Music and sound, your way** — a theme on the menus (it pauses when a game starts and steps aside if you're already playing your own music), soft tap sounds on every button, and the round tick — effects follow your volume buttons. Each has its own switch in Settings, and all follow your silent switch.
 - 🔠 **A word you can read across the room** — always centred on the describer's screen; long words shrink to fit instead of breaking mid-word, and two- or three-line titles sit snug (a little more airy for Chinese and Japanese).
 - 🎛️ **Quick Play or Custom Game** — pick teams, rounds, categories, round
