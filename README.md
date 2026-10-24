@@ -106,7 +106,7 @@ Custom Game can also play the words in a different language from the interface.
 
 ## Status
 
-CharaDUO **1.0.0** was the first release. Update **1.0.2** — menu music, tap sounds, layout polish, refreshed screenshots and in-app promo-code redemption — is live. Update **1.0.3**, which fixes the outer-screen orientation on iPhone Duo in "partially folded" (laptop) posture, was submitted to the App Store on **2026-10-23** and is in review. Everything before 1.0.0 was pre-release development (`v0.x`).
+CharaDUO **1.0.0** was the first release. Update **1.0.2** — menu music, tap sounds, layout polish, refreshed screenshots and in-app promo-code redemption — is live. Update **1.0.4**, which fixes (again) the outer-screen orientation on iPhone Duo in "partially folded" (laptop) posture, was submitted to the App Store on **2026-10-23** and is in review. Everything before 1.0.0 was pre-release development (`v0.x`).
 
 ## Under the hood
 
