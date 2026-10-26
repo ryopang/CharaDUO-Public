@@ -108,7 +108,7 @@ Custom Game can also play the words in a different language from the interface.
 
 ## Status
 
-CharaDUO **1.0.0** was the first release. Update **1.0.2** — menu music, tap sounds, layout polish, refreshed screenshots and in-app promo-code redemption — is live. Update **1.0.5** — a "Get ready, 3, 2, 1, Start!" countdown before every turn on both screens, the answer revealed on the outer screen for half a second on Correct, centred outer-screen content, and the Reaction Reel preview above the word list — was approved on **2026-10-25** and is live. Update **1.0.6** is next: a more reliable outer display, a "Start!" sound of its own, sound that plays even with the silent switch on, and thousands of words with two new categories, Pop Songs and Slang. Everything before 1.0.0 was pre-release development (`v0.x`).
+CharaDUO **1.0.0** was the first release. Update **1.0.2** — menu music, tap sounds, layout polish, refreshed screenshots and in-app promo-code redemption — is live. Update **1.0.5** — a "Get ready, 3, 2, 1, Start!" countdown before every turn on both screens, the answer revealed on the outer screen for half a second on Correct, centred outer-screen content, and the Reaction Reel preview above the word list — was approved on **2026-10-25** and is live. Update **1.0.6** — a more reliable outer display, a "Start!" sound of its own, sound that plays even with the silent switch on, and thousands of words with two new categories, Pop Songs and Slang — was submitted for review on **2026-10-26**. Everything before 1.0.0 was pre-release development (`v0.x`).
 
 ## Under the hood
 
