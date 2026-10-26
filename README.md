@@ -11,7 +11,7 @@ A party charades game for iPhone — built around the way iPhone Duo folds into 
 [![Platform](https://img.shields.io/badge/iOS-27.1%2B-7c3aed?logo=apple&logoColor=white)](#requirements)
 [![Swift](https://img.shields.io/badge/Swift-6-F05138?logo=swift&logoColor=white)](#under-the-hood)
 [![Languages](https://img.shields.io/badge/languages-5-22c55e)](#five-languages-one-game)
-[![Status](https://img.shields.io/badge/App%20Store-in%20review-f59e0b)](#status)
+[![Status](https://img.shields.io/badge/App%20Store-live-22c55e)](#status)
 
 **English** · [繁體中文](README.zh-Hant.md) · [简体中文](README.zh-Hans.md) · [粵語](README.zh-HK.md) · [日本語](README.ja.md)
 
@@ -42,7 +42,7 @@ splits itself across both halves:
 
 | 🧑‍🎤 Describer | 👀 Guessers |
 |---|---|
-| The upright inner half shows the **word** on a high-contrast card. The half lying on the table is one giant **Correct** and **Skip**. | The **outer display** faces the room: category, the countdown, one emoji per letter so they know how long the answer is, and the score. The word only appears once it's guessed: on **Correct** the emojis turn into the word for half a second, with a +1. |
+| The upright inner half shows the **word** in big type on one full-screen colour that shifts with the countdown. The half lying on the table is one giant **Correct** and **Skip**. | The **outer display** faces the room: category, the countdown, one emoji per letter so they know how long the answer is, and the score. The word only appears once it's guessed: on **Correct** the emojis turn into the word for half a second, with a +1. |
 
 <div align="center">
 <img src="docs/assets/duo-en-home.jpg" height="300" alt="Home" />
@@ -71,15 +71,16 @@ moments, replayable at 1×, 2× or 3× — chipmunk voices included — and sava
 
 ## Features
 
-- 🎭 **10 categories, 1,000+ words** — movies, TV shows, celebrities, superheroes,
-  animals, food, countries, sightseeing, sports and brands.
+- 🎭 **12 categories, thousands of words** — movies, TV shows, celebrities,
+  superheroes, animals, food, countries, sightseeing, sports, brands, pop songs
+  and slang. Pop songs and slang are picked for each language, not translated.
 - 🌏 **Five languages, one game** — the interface *and* the word bank, each
   written natively. Hong Kong words are drawn more often for Cantonese players,
   Japan-focused ones for Japanese players (a 70 / 30 regional deck).
 - ⏱️ **A countdown you can read at a glance** — every turn opens with
   "Get ready, 3, 2, 1, Start!" on both screens, so nobody is caught off guard;
   then big descending digits on a green → amber → red background.
-- 🎵 **Music and sound, your way** — a theme on the menus (it pauses when a game starts and steps aside if you're already playing your own music), soft tap sounds on every button, and the round tick — effects follow your volume buttons. Each has its own switch in Settings, and all follow your silent switch.
+- 🎵 **Music and sound, your way** — a theme on the menus (it fades out when a game starts), soft tap sounds on every button, the round tick and a "Start!" cue of its own. Sound plays even with the silent switch on, so the whole room hears it; the volume buttons set the level, and each sound has its own switch in Settings. Opening the game pauses music playing in other apps.
 - 🔠 **A word you can read across the room** — always centred on the describer's screen; long words shrink to fit instead of breaking mid-word, and two- or three-line titles sit snug (a little more airy for Chinese and Japanese).
 - 🎛️ **Quick Play or Custom Game** — pick teams, rounds, categories, round
   length (30–180 s), word language and skip penalty.
@@ -107,7 +108,7 @@ Custom Game can also play the words in a different language from the interface.
 
 ## Status
 
-CharaDUO **1.0.0** was the first release. Update **1.0.2** — menu music, tap sounds, layout polish, refreshed screenshots and in-app promo-code redemption — is live. Update **1.0.5** — a "Get ready, 3, 2, 1, Start!" countdown before every turn on both screens, the answer revealed on the outer screen for half a second on Correct, centred outer-screen content, and the Reaction Reel preview above the word list — was submitted to the App Store on **2026-10-24** and is in review. Everything before 1.0.0 was pre-release development (`v0.x`).
+CharaDUO **1.0.0** was the first release. Update **1.0.2** — menu music, tap sounds, layout polish, refreshed screenshots and in-app promo-code redemption — is live. Update **1.0.5** — a "Get ready, 3, 2, 1, Start!" countdown before every turn on both screens, the answer revealed on the outer screen for half a second on Correct, centred outer-screen content, and the Reaction Reel preview above the word list — was approved on **2026-10-25** and is live. Update **1.0.6** is next: a more reliable outer display, a "Start!" sound of its own, sound that plays even with the silent switch on, and thousands of words with two new categories, Pop Songs and Slang. Everything before 1.0.0 was pre-release development (`v0.x`).
 
 ## Under the hood
 
@@ -127,10 +128,11 @@ A native app with no third-party dependencies.
   Export is a deferred `AVMutableComposition` (1×/2×/3×).
 - **Timer** from `ContinuousClock` wall-clock deltas, never accumulated ticks,
   so it stays right across backgrounding.
-- **Word bank** is bundled JSON built from a spreadsheet at build time (Traditional →
-  Simplified conversion and validation included), decoded into memory.
+- **Word bank** is bundled JSON built from a spreadsheet at build time and decoded
+  into memory. The import fails on any Traditional character in the Simplified
+  column and on any answer repeated within a category.
 - Modular **Swift packages** (`Core`, `Content`, `ContentPipeline`, `Posture`,
-  `Capture`, `Design`) with 140 unit tests, plus a UI suite driven by launch flags.
+  `Capture`, `Design`) with 152 unit tests, plus a UI suite driven by launch flags.
 
 ```mermaid
 flowchart LR
