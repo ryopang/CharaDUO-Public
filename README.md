@@ -8,10 +8,12 @@
 
 A party charades game for iPhone — built around the way iPhone Duo folds into a tabletop.
 
+**[Download CharaDUO on the App Store](https://apps.apple.com/us/app/charaduo/id6817620557)** — live since October 24, 2026.
+
 [![Platform](https://img.shields.io/badge/iOS-27.1%2B-7c3aed?logo=apple&logoColor=white)](#requirements)
 [![Swift](https://img.shields.io/badge/Swift-6-F05138?logo=swift&logoColor=white)](#under-the-hood)
 [![Languages](https://img.shields.io/badge/languages-5-22c55e)](#five-languages-one-game)
-[![Status](https://img.shields.io/badge/App%20Store-live-22c55e)](#status)
+[![Status](https://img.shields.io/badge/App%20Store-live-22c55e)](https://apps.apple.com/us/app/charaduo/id6817620557)
 
 **English** · [繁體中文](README.zh-Hant.md) · [简体中文](README.zh-Hans.md) · [粵語](README.zh-HK.md) · [日本語](README.ja.md)
 
@@ -107,6 +109,8 @@ The app follows your phone's language until you pick one in Settings; a
 Custom Game can also play the words in a different language from the interface.
 
 ## Status
+
+CharaDUO is **live on the App Store**: [download it here](https://apps.apple.com/us/app/charaduo/id6817620557). It launched on October 24, 2026.
 
 CharaDUO **1.0.0** was the first release. Update **1.0.2** — menu music, tap sounds, layout polish, refreshed screenshots and in-app promo-code redemption — is live. Update **1.0.5** — a "Get ready, 3, 2, 1, Start!" countdown before every turn on both screens, the answer revealed on the outer screen for half a second on Correct, centred outer-screen content, and the Reaction Reel preview above the word list — was approved on **2026-10-25** and is live. Update **1.0.6** — a more reliable outer display, a "Start!" sound of its own, sound that plays even with the silent switch on, and thousands of words with two new categories, Pop Songs and Slang — is live. Update **1.0.7** — Easy Mode, a way out from the round summary, a larger pause button and a rating prompt after your fourth finished match — was submitted for review on **2026-11-03**. Everything before 1.0.0 was pre-release development (`v0.x`).
 
